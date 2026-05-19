@@ -21,7 +21,8 @@ def install_requirements():
     requirements = [
         "pyTelegramBotAPI",
         "requests",
-        "psutil"
+        "psutil",
+        "flask"
     ]
     
     for package in requirements:
