@@ -20,7 +20,8 @@ from datetime import datetime
 def install_requirements():
     requirements = [
         "pyTelegramBotAPI",
-        "requests"
+        "requests",
+        "psutil"
     ]
     
     for package in requirements:
